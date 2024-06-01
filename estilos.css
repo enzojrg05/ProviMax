@@ -1,0 +1,78 @@
+body{
+  background-image: url(img/imgmano.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+.span1{
+  font-size: 16px;
+}
+.container{
+  width: 700px;
+  position: relative;
+  margin: auto;
+  background: rgba(85, 83, 83, 0.493);
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo_img{
+  width: 250px;
+  margin-left: 50px;
+}
+
+.form{
+  padding: 10px;
+}
+
+.form__usuario,
+.form__clave{
+  width: 300px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.usuario, .clave{
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-bottom: solid #222 2px;
+}
+.ver_clave{
+  position: absolute;
+  right: 8px;
+  bottom: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  top: 32px;
+}
+.boton{
+  background: rgb(80, 178, 185);
+  padding: 15px 60px;
+  margin-left: 60px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: transform 0.3s;
+
+}
+h1{
+  text-align: center;
+  padding: 20px;
+  color: rgb(70, 66, 66);
+}
+.form__boton{
+  display: flex;
+  justify-content: flex-start;
+}
+.boton:hover{
+  background: rgb(72, 96, 133);
+  transform: scale(1.1);
+}
